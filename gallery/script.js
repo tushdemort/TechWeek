@@ -16,7 +16,7 @@
     "../images/gallery_full/1st_column/4.jpeg?width=882&height=588",
     "../images/gallery_full/2nd_column/1.jpeg?width=882&height=588",
     "../images/gallery_full/2nd_column/2.jpeg?width=882&height=588",
-    "../images/gallery_full/2nd_column/3.jpeg?width=882&height=588",
+    "../images/gallery_full/2nd_column/5.jpeg?width=882&height=588",
     "../images/gallery_full/2nd_column/4.jpeg?width=882&height=588",
     "../images/gallery_full/3rd_column/1.jpeg?width=882&height=588",
     "../images/gallery_full/3rd_column/2.jpeg?width=882&height=588",
