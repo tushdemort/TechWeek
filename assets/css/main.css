@@ -3674,8 +3674,8 @@ canvas {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  width: 180px;
-  height: 250px;
+  width: 230px;
+  height: 290px;
   background-color: rgb(31, 25, 25);
   margin: 5px 5px;
   padding: 10px;
@@ -3708,6 +3708,8 @@ span {
   font-size: 0.8em;
   height: 10%;
   text-align: center;
+  margin:auto;
+  font-weight: 800;
 }
 .charCards h5 {
   color: rgb(255, 255, 255);
