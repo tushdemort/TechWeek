@@ -10,7 +10,7 @@
     // keep them low-res for demo purposes only
     const assets = [
 
-    "https://media.discordapp.net/attachments/877042586475446272/877042609619603498/c954d623-c0cc-4935-a639-bfb1a85dbe78.png?width=882&height=588",
+    "../images/gallery_full/1st_column/1.jpeg?width=882&height=588",
     "https://media.discordapp.net/attachments/877042586475446272/877042868118769695/6606610f-6798-46db-8be9-c45e43413471.png?width=882&height=588",
     "https://media.discordapp.net/attachments/877042586475446272/877043183861780520/d0d1c6c1-ad5a-409d-bba2-90b87774d12a.png?width=882&height=588",
     "https://media.discordapp.net/attachments/877042586475446272/877043285233913926/f00e4986-2421-4af5-9ce1-37c1964bec38.png?width=882&height=588",
