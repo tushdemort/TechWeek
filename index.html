@@ -24,7 +24,7 @@
 			<a href="#four1" class="coolHeaderText grow-on-hover inst">EVENTS</a>
 			<a href="#gall" class="coolHeaderText grow-on-hover inst">GALLERY</a>
 			<a href="#four10" class="coolHeaderText grow-on-hover inst">TEAM</a>
-			<a href="sponsors/index.html" class="coolHeaderText grow-on-hover inst">SPONSORS</a>
+			<a href="#sponsors" class="coolHeaderText grow-on-hover inst">SPONSORS</a>
 			<a href="https://unstop.com" class="coolHeaderText grow-on-hover inst">UNSTOP</a>
 		</div>
 		<div class="coolHeaderSocials coolHeads">
@@ -73,18 +73,6 @@
 				</div>
 			</nav>
 		</div>
-		<nav id="menu">
-			<div class="inner">
-				<h2>Index</h2>
-				<ul class="links">
-					<li><a href="programming/index.html">Workshops
-					<li><a href="ai/index.html">Competitons</a></li>
-					<li><a href="gaming/index.html">Talks</a></li>
-					<li><a href="gallery/index.html">Gallery</a></li>
-				</ul>
-				<a href="#" class="close">Close</a>
-			</div>
-		</nav>
 		<section id="banner">
 			<div class="inner">
 				<h2 style="color:#e3106b;display:inline;">Tech Week 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
@@ -207,9 +195,11 @@
 				<a class="image"><img src="images/pic03.jpg" alt="" /></a>
 				<div>
 					<h2 class="major">Workshops</h2>
-					<p class="special-cards">The 4-day tech week offers a diverse range of workshops on cutting-edge technologies,
+					<p class="special-cards">The 4-day tech week offers a diverse range of workshops on cutting-edge
+						technologies,
 						led by seasoned experts, these workshops provide hands-on learning
-						opportunities for professionals and novices alike. Participants can engage in the learning process,
+						opportunities for professionals and novices alike. Participants can engage in the learning
+						process,
 						expand their technical knowledge, and network with like-minded individuals.</p>
 					<a href="ai/index.html" class="special">Learn more</a>
 				</div>
@@ -536,22 +526,11 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script src="gravity.js"></script>
 	<script src="assets/js/three.min.js"></script>
-	<script src="assets/js/vanta.birds.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
 	<div>
-		<article id="info">
-			<div id="particles-js"></div>
-	</div>
-	<header>
-		<div class="stars"></div>
-		<div class="twinkle"></div>
-
-	</header>
-	</article>
-	<div>
+		<div id="particles-js"></div>
 		<script>
 			particlesJS("particles-js", {
 				"particles": {
@@ -560,10 +539,7 @@
 						"density": {
 							"enable": true,
 							"value_area": 800
-
 						}
-
-
 					},
 					"shape": {
 						"type": "circle",
@@ -574,21 +550,6 @@
 						"polygon": {
 							"nb_sides": 7
 						},
-						"image": {
-							"src": "img/github.svg",
-							"width": 100,
-							"height": 100
-						}
-					},
-					"opacity": {
-						"value": 1,
-						"random": false,
-						"anim": {
-							"enable": false,
-							"speed": 3,
-							"opacity_min": 0.1,
-							"sync": false
-						}
 					},
 					"size": {
 						"value": 3,
@@ -600,28 +561,6 @@
 							"sync": false
 						}
 					},
-					"line_linked": {
-						"enable": true,
-						"distance": 250,
-						"color": "fff",
-						"opacity": 0.4,
-						"width": 1
-					},
-					"move": {
-						"enable": true,
-						"speed": 3,
-						"direction": "none",
-						"random": true,
-						"straight": false,
-						"out_mode": "out",
-						"bounce": false,
-						"attract": {
-							"enable": false,
-							"rotateX": 600,
-							"rotateY": 1200
-						}
-
-					}
 				},
 				"interactivity": {
 					"detect_on": "canvas",
@@ -637,34 +576,7 @@
 						},
 						"resize": true
 					},
-					"modes": {
-						"grab": {
-							"distance": 140,
-							"line_linked": {
-								"opacity": 1
-							}
-						},
-						"bubble": {
-							"distance": 300,
-							"size": 70,
-							"duration": 2,
-							"opacity": 8,
-							"speed": 3
-						},
-						"repulse": {
-							"distance": 500,
-							"duration": 0.4
-						},
-						"push": {
-							"particles_nb": 4
-						},
-						"remove": {
-							"particles_nb": 2
-						}
-					}
-				},
-				"retina_detect": true
-
+				}
 			});
 		</script>
 		<script>
