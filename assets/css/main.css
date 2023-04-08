@@ -4803,15 +4803,16 @@ i {
 }
 
 .d_card:nth-child(1):before {
-  background-image: url(https://media.discordapp.net/attachments/763767615042224149/876111490590048276/unknown.png);
+  background-image: url(https://defabrique.nl/app/uploads/2016/08/Totaalbeeld-vloer-grote-zaal.jpg);
 }
 
 .d_card:nth-child(2):before {
-  background-image: url(https://media.discordapp.net/attachments/763767615042224149/876111827065536542/unknown.png);
+  background-image: url(https://ai4.io/usa/wp-content/uploads/sites/53/2022/10/Ai4-2023-checkmarks-bg.jpg);
+  filter: sepia(80%) hue-rotate(210deg) saturate(300%);
 }
 
 .d_card:nth-child(3):before {
-  background-image: url(https://media.discordapp.net/attachments/763767615042224149/876112458094366730/unknown.png);
+  background-image: url(https://techbeacon.com/sites/default/files/styles/social/public/field/image/stem-list-evgsabl51rk-unsplash.jpg?itok=6DAPjNgG);
 }
 
 .content {
