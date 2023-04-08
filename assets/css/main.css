@@ -4808,7 +4808,6 @@ i {
 
 .d_card:nth-child(2):before {
   background-image: url(https://ai4.io/usa/wp-content/uploads/sites/53/2022/10/Ai4-2023-checkmarks-bg.jpg);
-  filter: sepia(80%) hue-rotate(210deg) saturate(300%);
 }
 
 .d_card:nth-child(3):before {
