@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
 body {
-  background-image: url("images/bg8.jpg");
+  background-image: url("images/background.png");
 }
 
 ::-webkit-scrollbar {
@@ -347,7 +347,7 @@ html {
 
 body {
   /* background-color: #2e3141; */
-  background-image: url("/images/backg.png") !important;
+  background-image: url("/images/background.png") !important;
   /* background-color: black; */
   background-repeat: no-repeat;
   background-size: cover;
