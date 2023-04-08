@@ -65,7 +65,7 @@
 					<ul class="links">
 						<li><a href="programming/index.html">Workshops
 						<li><a href="ai/index.html">Competitons</a></li>
-						<li><a href="gaming/index.html">Seminars</a></li>
+						<li><a href="gaming/index.html">Talks</a></li>
 						<li><a href="gallery/index.html">Gallery</a></li>
 					</ul>
 					<a href="#" class="close">Close</a>
@@ -76,9 +76,9 @@
 			<div class="inner">
 				<h2>Index</h2>
 				<ul class="links">
-					<li><a href="programming/index.html">Ad.www.ertise
-					<li><a href="ai/index.html">BR&ltAI&gtnSTROM</a></li>
-					<li><a href="gaming/index.html">ARMAGEDDON</a></li>
+					<li><a href="programming/index.html">Workshops
+					<li><a href="ai/index.html">Competitons</a></li>
+					<li><a href="gaming/index.html">Talks</a></li>
 					<li><a href="gallery/index.html">Gallery</a></li>
 				</ul>
 				<a href="#" class="close">Close</a>
@@ -92,7 +92,7 @@
 				<br>
 				<h3 style="color:#602b9c;">Technological Renaissance</h3>
 				<b>
-					<p style="color:#fff;">• Workshops • Competitions • Seminars •</p>
+					<p style="color:#fff;">• Workshops • Competitions • Talks •</p>
 				</b>
 			</div>
 		</section>
@@ -134,7 +134,7 @@
 					</div>
 					<div class="d_card">
 						<div class="content">
-							<h2 class="heading">Seminars</h2>
+							<h2 class="heading">Talks</h2>
 							<p class="data-content">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque magna eu
 								tincidunt interdum.
@@ -312,9 +312,7 @@
 						<div class="charCards">
 							<h5>Gautamvatsa</h5>
 							<h6>Operational Head</h6>
-							<img class="aaditPhoto"
-								src="images/team/Gautam.jpg"
-								alt="">
+							<img class="aaditPhoto" src="images/team/Gautam.jpg" alt="">
 							<div class="instaGit">
 								<a href="https://www.linkedin.com/in/gautam-vatsa-64619b253/?originalSubdomain=in">
 									<i class="fab fa-linkedin grows-on-hover inst">
@@ -540,45 +538,153 @@
 	<script src="gravity.js"></script>
 	<script src="assets/js/three.min.js"></script>
 	<script src="assets/js/vanta.birds.min.js"></script>
-	<script>
-		VANTA.BIRDS({
-			el: "#banner",
-			mouseControls: true,
-			touchControls: true,
-			gyroControls: true,
-			minHeight: 200.00,
-			minWidth: 200.00,
-			scale: 1.00,
-			scaleMobile: 1.00,
-			birdSize: 0.80,
-			wingSpan: 15.00,
-			speedLimit: 6.00,
-			separation: 50.00,
-			alignment: 10.00,
-			cohesion: 1.00,
-			backgroundAlpha: 0.00,
-			color1: 0xb400ff
-		})
-	</script>
-	<script>
-		// Gallery Script
-		function slidesPlugin(activeSlide = 0) {
-			const slides = document.querySelectorAll(".slide");
-			slides[activeSlide].classList.add("active");
-			for (const slide of slides) {
-				slide.addEventListener("click", () => {
-					clearActiveClasses();
-					slide.classList.add("active");
-				});
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+	<div>
+		<article id="info">
+			<div id="particles-js"></div>
+	</div>
+	<header>
+		<div class="stars"></div>
+		<div class="twinkle"></div>
+
+	</header>
+	</article>
+	<div>
+		<script>
+			particlesJS("particles-js", {
+				"particles": {
+					"number": {
+						"value": 90,
+						"density": {
+							"enable": true,
+							"value_area": 800
+
+						}
+
+
+					},
+					"shape": {
+						"type": "circle",
+						"stroke": {
+							"width": 2,
+							"color": "#fff"
+						},
+						"polygon": {
+							"nb_sides": 7
+						},
+						"image": {
+							"src": "img/github.svg",
+							"width": 100,
+							"height": 100
+						}
+					},
+					"opacity": {
+						"value": 1,
+						"random": false,
+						"anim": {
+							"enable": false,
+							"speed": 3,
+							"opacity_min": 0.1,
+							"sync": false
+						}
+					},
+					"size": {
+						"value": 3,
+						"random": true,
+						"anim": {
+							"enable": false,
+							"speed": 20,
+							"size_min": 0.1,
+							"sync": false
+						}
+					},
+					"line_linked": {
+						"enable": true,
+						"distance": 250,
+						"color": "fff",
+						"opacity": 0.4,
+						"width": 1
+					},
+					"move": {
+						"enable": true,
+						"speed": 3,
+						"direction": "none",
+						"random": true,
+						"straight": false,
+						"out_mode": "out",
+						"bounce": false,
+						"attract": {
+							"enable": false,
+							"rotateX": 600,
+							"rotateY": 1200
+						}
+
+					}
+				},
+				"interactivity": {
+					"detect_on": "canvas",
+					"events": {
+						"onhover": {
+							"enable": true,
+							"mode": "grab"
+						},
+						"onclick": {
+							"enable": true,
+							"mode": "push"
+
+						},
+						"resize": true
+					},
+					"modes": {
+						"grab": {
+							"distance": 140,
+							"line_linked": {
+								"opacity": 1
+							}
+						},
+						"bubble": {
+							"distance": 300,
+							"size": 70,
+							"duration": 2,
+							"opacity": 8,
+							"speed": 3
+						},
+						"repulse": {
+							"distance": 500,
+							"duration": 0.4
+						},
+						"push": {
+							"particles_nb": 4
+						},
+						"remove": {
+							"particles_nb": 2
+						}
+					}
+				},
+				"retina_detect": true
+
+			});
+		</script>
+		<script>
+			// Gallery Script
+			function slidesPlugin(activeSlide = 0) {
+				const slides = document.querySelectorAll(".slide");
+				slides[activeSlide].classList.add("active");
+				for (const slide of slides) {
+					slide.addEventListener("click", () => {
+						clearActiveClasses();
+						slide.classList.add("active");
+					});
+				}
+				function clearActiveClasses() {
+					slides.forEach((slide) => {
+						slide.classList.remove("active");
+					});
+				}
 			}
-			function clearActiveClasses() {
-				slides.forEach((slide) => {
-					slide.classList.remove("active");
-				});
-			}
-		}
-		slidesPlugin(2);
-	</script>
+			slidesPlugin(2);
+		</script>
 </body>
 
 </html>
